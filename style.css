@@ -1,0 +1,176 @@
+.maschine { /*Alle Teile, die so groß wie die Maschine sind */
+  width: 1380px;
+  height: 1389px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  background-repeat: no-repeat;
+}
+
+
+.scheibe { /* die Ergebniswerkplättchen */
+ width: 92px;
+ height: 92px;
+ position: absolute;
+ top: 712px;
+ left: 831px;
+ background-image: url("teile/kleiner/scheiben.png.gif");
+ background-repeat: no-repeat;
+}
+
+.platten { /*hier werden die klickflächen für die platten gemacht */
+ width: 99px;
+ height: 22px;
+ position: absolute;
+ /*background-color: black;*/
+ top: 750px;
+ left: 830px;
+
+}
+
+.ergebnisstelle { /*/stellschlüssel für ergebnix*/
+   width: 25px;
+ height: 25px;
+ position: absolute;
+ /*background-color: black;*/
+ top: 746px;
+ left: 865px;
+}
+
+.schlusselloch_click { 
+ width: 50px;
+ height: 50px;
+ position: absolute;
+ /*background-color: black;*/
+ 
+}
+
+
+
+#maschine {
+  background-image: url("teile/haupt/maschine.png.gif");
+}
+
+#hintergrund {
+	background-image: url("teile/haupt/hintergrund_braun.png.gif");
+}
+
+#anzeigering {
+	background-image: url("teile/haupt/anzeigering.png.gif");
+}
+
+
+
+#feststellstift {
+  background-image: url("teile/haupt/feststellstift.png.gif");
+}
+
+#zaehlstift{
+ 	width: 29px;
+ 	height: 27px;
+ 	position: absolute;
+	 /*top: 745px;
+	 left: 865px;*/
+
+
+	background-image: url("teile/haupt/1zaehlstift.png.gif");
+}
+
+#schlusselloch{
+ 	width: 66px;
+ 	height: 209px;
+ 	position: absolute;
+	 top: 1130px;
+	 left: 849px;
+
+	background-image: url("teile/kleiner/schlusselloch.png.gif");
+}
+
+#up{
+	top: 1133px;
+	left: 863px;
+}
+
+#down{
+	top: 1290px;
+	left: 854px;
+}
+
+
+
+#kurbel {
+  width: 103px;
+  height: 743px;
+  top: 385px;
+  left: 825px;
+
+  /*top: 695px;
+  left: 690px;*/
+  position: absolute;
+  background-image: url("teile/kleiner/kurbel.png.gif");
+  background-repeat: no-repeat;
+}
+
+#s1-1 {background-image: url("teile/schalter/1-1.png.gif");}
+#s1-2 {background-image: url("teile/schalter/1-2.png.gif");}
+#s1-3 {background-image: url("teile/schalter/1-3.png.gif");}
+#s1-4 {background-image: url("teile/schalter/1-4.png.gif");}
+#s1-5 {background-image: url("teile/schalter/1-5.png.gif");}
+#s1-6 {background-image: url("teile/schalter/1-6.png.gif");}
+#s1-7 {background-image: url("teile/schalter/1-7.png.gif");}
+#s1-8 {background-image: url("teile/schalter/1-8.png.gif");}
+#s1-9 {background-image: url("teile/schalter/1-9.png.gif");}
+#s2-1 {background-image: url("teile/schalter/2-1.png.gif");}
+#s2-2 {background-image: url("teile/schalter/2-2.png.gif");}
+#s2-3 {background-image: url("teile/schalter/2-3.png.gif");}
+#s2-4 {background-image: url("teile/schalter/2-4.png.gif");}
+#s2-5 {background-image: url("teile/schalter/2-5.png.gif");}
+#s2-6 {background-image: url("teile/schalter/2-6.png.gif");}
+#s2-7 {background-image: url("teile/schalter/2-7.png.gif");}
+#s2-8 {background-image: url("teile/schalter/2-8.png.gif");}
+#s2-9 {background-image: url("teile/schalter/2-9.png.gif");}
+#s3-1 {background-image: url("teile/schalter/3-1.png.gif");}
+#s3-2 {background-image: url("teile/schalter/3-2.png.gif");}
+#s3-3 {background-image: url("teile/schalter/3-3.png.gif");}
+#s3-4 {background-image: url("teile/schalter/3-4.png.gif");}
+#s3-5 {background-image: url("teile/schalter/3-5.png.gif");}
+#s3-6 {background-image: url("teile/schalter/3-6.png.gif");}
+#s3-7 {background-image: url("teile/schalter/3-7.png.gif");}
+#s3-8 {background-image: url("teile/schalter/3-8.png.gif");}
+#s3-9 {background-image: url("teile/schalter/3-9.png.gif");}
+#s4-1 {background-image: url("teile/schalter/4-1.png.gif");}
+#s4-2 {background-image: url("teile/schalter/4-2.png.gif");}
+#s4-3 {background-image: url("teile/schalter/4-3.png.gif");}
+#s4-4 {background-image: url("teile/schalter/4-4.png.gif");}
+#s4-5 {background-image: url("teile/schalter/4-5.png.gif");}
+#s4-6 {background-image: url("teile/schalter/4-6.png.gif");}
+#s4-7 {background-image: url("teile/schalter/4-7.png.gif");}
+#s4-8 {background-image: url("teile/schalter/4-8.png.gif");}
+#s4-9 {background-image: url("teile/schalter/4-9.png.gif");}
+#s5-1 {background-image: url("teile/schalter/5-1.png.gif");}
+#s5-2 {background-image: url("teile/schalter/5-2.png.gif");}
+#s5-3 {background-image: url("teile/schalter/5-3.png.gif");}
+#s5-4 {background-image: url("teile/schalter/5-4.png.gif");}
+#s5-5 {background-image: url("teile/schalter/5-5.png.gif");}
+#s5-6 {background-image: url("teile/schalter/5-6.png.gif");}
+#s5-7 {background-image: url("teile/schalter/5-7.png.gif");}
+#s5-8 {background-image: url("teile/schalter/5-8.png.gif");}
+#s5-9 {background-image: url("teile/schalter/5-9.png.gif");}
+#s6-1 {background-image: url("teile/schalter/6-1.png.gif");}
+#s6-2 {background-image: url("teile/schalter/6-2.png.gif");}
+#s6-3 {background-image: url("teile/schalter/6-3.png.gif");}
+#s6-4 {background-image: url("teile/schalter/6-4.png.gif");}
+#s6-5 {background-image: url("teile/schalter/6-5.png.gif");}
+#s6-6 {background-image: url("teile/schalter/6-6.png.gif");}
+#s6-7 {background-image: url("teile/schalter/6-7.png.gif");}
+#s6-8 {background-image: url("teile/schalter/6-8.png.gif");}
+#s6-9 {background-image: url("teile/schalter/6-9.png.gif");}
+
+#feststellstift_click { /*/stellschlüssel für ergebnix*/
+ width: 50px;
+ height: 50px;
+ position: absolute;
+ /*background-color: black;*/
+ top: 415px;
+ left: 865px;
+}
