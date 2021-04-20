@@ -613,6 +613,11 @@ function move(){
 var ergebnis = [0,0,0,0,0,0,0,0,0,0,0,0];
 
 function stell(s, u=0){//s = die stelle u= die anzahl der überträge default 0
+	
+	// wenn ich das dritte mal in folge Weiterdrehen will, geht das nicht
+	if (u > 4) {alert("Aus technischen Gründen schafft diese Sprossenradmaschine nicht mehr als 3 Stellenüberträge in Folge."); 
+	arbeitet = true;
+	return false;}
 
 
 			async function dreh2(s, e, k, oneto36=0, warten=25){
@@ -633,11 +638,6 @@ function stell(s, u=0){//s = die stelle u= die anzahl der überträge default 0
 	
 	
 	var richtig = true; //Variable um mir zu merken ob ich überhaupt weiterdrehen darf
-
-	// wenn ich das dritte mal in folge Weiterdrehen will, geht das nicht
-	/*if (u > 3) {alert("Aus technischen Gründen schafft diese Sprossenradmaschine nicht mehr als 3 Stellenüberträge in Folge."); 
-	arbeitet = true;
-	return false;} */
 	
 	if (ergebnis[s] == 9 && s < 11){//Wenn die Zahl zuvor 9 ist, muss auch die naechste stelle weitergedreht werden
 		richtig = stell(s + 1, u + 1); // aber nur, wenn es nicht mehr als 2 weiter sind
